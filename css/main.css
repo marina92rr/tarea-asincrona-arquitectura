@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* Cabecera página */
+.sidebar {
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.sidebar img {
+    width: 70px;
+}
+
+.links,
+.networks {
+    display: flex;
+    gap: 40px;
+}
+
+.links__li,
+.networks__li {
+    list-style: none;
+}
+
+.links__a,
+.networks__a {
+    text-decoration: none;
+    color: black;
+}
+
+.is-active {
+    text-decoration: underline;
+}
+
+/* Cuerpo de la página */
+main {
+    padding: 7.5rem;
+}
+
+.container--flex {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section--contemporary {
+    margin: 0 3rem 0 0;
+    width: 250px;
+}
+
+h1{
+    line-height: 1;
+    font-weight: 400;
+}
+
+.section__p, .center__p {
+    line-height: 1.9;
+    font-size: x-small;
+    padding: 1rem 0;
+}
+
+.contemporary__button {
+    font-size: x-small;
+    font-weight: 500;
+    background-color: rgb(238, 238, 238);
+    padding: 0.7rem 1.5rem;
+}
+
+.contemporary__img img {
+    width: 650px;
+}
+
+.container--center {
+    margin: 9rem 0 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center {
+    width: 60%;
+}
+
+.section {
+    margin: 3rem 0;
+    width: 80%;
+}
+.section__h3{
+    font-weight: 420;
+    line-height: 1.4;
+}
+
+
+.windows img{
+    width: 300px;
+}
+
+.sections{
+    padding: 2rem 0;
+    display: flex;
+    align-items: start;
+}
+
+
+.picture__3 img{
+    width: 170px;
+}
+
+
+ img{
+    max-width: 1000px;
+}
+
+.gallery img {
+    margin: 1rem;
+    width: 200px;
+}
+
+/* Pie de la página */
+footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sidebar--footer {
+    display: flex;
+    gap: 50px;
+}
+
+.company {}
+
+.company__logo {}
+
+.company__paragraph {}
+
+.contact {}
+
+.contact__paragraph {}
+
+.networks--email {}
+
+.form__input {
+    border: none;
+    color: black;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
