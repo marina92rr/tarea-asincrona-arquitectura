@@ -132,21 +132,11 @@ footer {
 }
 
 .sidebar--footer {
+    padding: 1rem;
     display: flex;
-    gap: 50px;
+    gap: 8rem;
 }
 
-.company {}
-
-.company__logo {}
-
-.company__paragraph {}
-
-.contact {}
-
-.contact__paragraph {}
-
-.networks--email {}
 
 .form__input {
     border: none;
